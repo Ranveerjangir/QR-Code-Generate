@@ -1,0 +1,40 @@
+
+#wrapper{
+    width: 500px;
+    height: 400px;
+    border: 2px solid;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+h1 span{
+  color: blueviolet;
+  
+}
+h1:hover{
+    color: rgb(233, 83, 14);
+    
+  }
+#inputText{
+    display: block;
+    border-radius: 7px;
+    width: 80%;
+    outline: none;
+    border: 1px black solid;
+}
+
+#genBtn {
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(152, 152, 181);
+    cursor: pointer;
+}
